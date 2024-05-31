@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <meta name='viewport' content='width=device-width', initial-scale=1>
+    <link rel='stylesheet' type='text/css' media='screen' href='signstyle.css'>
+    <script src="sign.js"></script>
+</head>
+<body onload="disableSubmit()">
+    <div class="container">
+      <div class="whitebackground">
+        <div class="text">
+          <div class="header">
+            <h1 id="sign">
+              Sign Up
+            </h1>
+            <p id="fill">
+              Please fill in this form to create an account!
+            </p>
+          </div>
+        </div>
+        <hr id="line">
+        <form method="post" action="/register" onsubmit="return validate()">
+          <div class="input">
+            <input name="fisrtname" id="firstname" type="text" placeholder="First Name">
+            <input name="lastname" id="lastname" type="text" placeholder="Last Name">
+            <input name="username" id="username" type="text" placeholder="Username">
+            <input name="email" id="email" type="text" placeholder="Email">
+            <input name="password" id="password" type="password" placeholder="Password">
+            <input name="passconfirm" id="passconfirm" type="password" placeholder="Confirm Password">
+          </div>
+        </form>
+        <div class="tacobox">
+          <input id="checkbox" type="checkbox" onchange="activateButton(this)">  I accept the <a id="terms" href="https://cdn.discordapp.com/attachments/446008800965820420/1214288362639200266/image.png?ex=65f8912a&is=65e61c2a&hm=faa81229c0169a42c63713c538b46dedb6ac8a5cade9b4e8a0c4bd61b6603661&">Terms of Use</a>  &  <a id="privacy" href="www.ynet.co.il">Privacy Policy</a>.
+          <input onclick="register()" id="submit" type="submit" name="submit" value="Sign Up">
+        </div>
+      </div>
+    </div>
+</body>

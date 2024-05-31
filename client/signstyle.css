@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+    position: relative;
+}
+
+.container{
+    background-color: rgb(0, 174, 255);
+    height: 590px;
+    width: 420px;
+    border-radius: 10px;
+}
+
+.whitebackground{
+    margin-top: 10px;
+    height: 570px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.header{
+    margin-left: 20px;
+}
+
+#sign{
+    margin-top: 20px;
+}
+
+#fill{
+    margin-top: 10px;
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+}
+
+.input{
+    height: 340px;
+    width: 400px;
+    padding: 1px 20px ;
+    box-sizing: border-box;
+}
+
+.tacobox{
+    margin: 20px;
+
+}
+
+#firstname
+{
+    height: 40px;
+    width: 140px;
+    padding: 1px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+}
+
+#lastname
+{
+    height: 40px;
+    width: 140px;
+    padding: 1px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+}
+
+#username
+{
+    height: 40px;
+    width: 305px;
+    padding: 1px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+}
+
+#email
+{
+    height: 40px;
+    width: 305px;
+    padding: 1px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+}
+
+#password
+{
+    height: 40px;
+    width: 305px;
+    padding: 1px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+}
+
+#passconfirm
+{
+    height: 40px;
+    width: 305px;
+    padding: 1px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.tacobox
+{
+    color: rgb(109, 109, 109);
+    text-decoration:none
+}
+
+
+#terms
+{
+    text-decoration:none
+}
+
+
+#privacy
+{
+    text-decoration:none
+}
+
+#submit
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 174, 255);
+    text-align: center;
+    margin-top: 20px;
+    height: 42px;
+    width: 140px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
